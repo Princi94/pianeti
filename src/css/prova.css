@@ -1,0 +1,53 @@
+body{
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    background-color: red;
+    color: black;
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+    min-height:fit-content;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+span{
+    background-color: yellow;
+    color: black;
+    min-width: 300px;
+    height: auto;
+    min-height: fit-content;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: justify;
+    margin-left: 10px    ;
+}
+
+p{
+    color: blue;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+}
+
+li{
+    margin-left: 10px;
+}
+
+ul{
+    list-style-type: disc;
+    margin-left: 10px;
+}
+
+ol{
+    list-style-type: lower-roman;
+    margin-left: 10px;
+}
+
+hr{
+    color: yellow;
+}
