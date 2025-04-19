@@ -19,7 +19,7 @@ html{
     }
   
   body{
-    font-size: 0.9em;
+    font-size: 1em;
     background-color: #d3d3d3;
   }
   
@@ -78,20 +78,22 @@ html{
 
 /* NAV SECONDO LIVELLO */
 
-  nav ul.planets li{
+  nav ul ul.planets li{
     position: relative;
-    float: left;
     top: 100%;
     left: 0;
     padding: 0;
-    width: 0;
-    overflow: hidden;
-    transition: 3s;
+    list-style: none;
   }
 
 /* ANIMAZIONI */
 
-  nav ul.planets li:hover{
+  nav ul.main-ul li:hover{
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  nav ul.planets li:hover ul{
     width: 100%;
     opacity: 1;
   }
@@ -101,7 +103,7 @@ html{
     cursor: pointer;
   }
 
-  nav ul ul a:hover{
+  nav ul li ul a:hover{
     text-transform: uppercase;
   }
 
